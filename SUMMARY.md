@@ -1,5 +1,7 @@
-# Table of Contents
+# Table of contents
 
-## GitBook
+* [스터디 환경세팅](README.md)
 
-* [Git Book 가이드](README.md)
+## 👉 1주차
+
+* [타입스크립트 시작하기](1/undefined.md)
