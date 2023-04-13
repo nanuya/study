@@ -1,7 +1,5 @@
 # Table of contents
 
-* [스터디 환경세팅](README.md)
-
-## 👉 1주차
-
-* [타입스크립트 시작하기](1/undefined.md)
+* [개발 환경세팅](README.md)
+  * [개발 환경세팅](undefined/undefined.md)
+  * [타입스크립트 시작하기](undefined/undefined-1.md)
