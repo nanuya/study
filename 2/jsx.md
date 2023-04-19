@@ -84,7 +84,7 @@ JSX 는 다루기 복잡한 DOM api 의 제어권을 내부에 숨깁니다. 이
     \- 짝수면 어디다 담지?\
     난 짝수만 알면되는데 다른 고민사항이 더 많다.
 
-```
+```javascript
 const numbers = [1, 2, 3, 4, 5];
 const evenNumbers = [];
 
@@ -104,7 +104,7 @@ console.log(evenNumbers);
 `(number % 2) === 0` 짝수만 얻기! \
 목표였던 `주어진 배열에서 짝수만얻기` 딱 요 부분만 코드로 작성하면된다. 나머진 걍 선언적 api 를 사용함
 
-```
+```javascript
 const numbers = [1, 2, 3, 4, 5];
 const evenNumbers = numbers.filter(number => (number % 2) === 0);
 console.log(evenNumbers);
