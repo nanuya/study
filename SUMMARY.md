@@ -8,5 +8,4 @@
   * [Parcel & ESLint](1/parcel-and-eslint.md)
 * [🏁 2주차](2/README.md)
   * [JSX](2/jsx.md)
-  * [React Element](2/react-element.md)
   * [Virtual DOM](2/virtual-dom.md)
