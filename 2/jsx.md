@@ -70,9 +70,44 @@ JSX 는 다루기 복잡한 DOM api 의 제어권을 내부에 숨깁니다. 이
 
 
 
-### 참고
+### 어려운점!
 
-선언적 프로그래밍이란??
+선언적 프로그래밍 이라는 개념이 아직 와닿지 않는다. 어떻게 보다는 `무엇을 하는가`에 초점을 맞춘다고 하는데.. 그게 아직 잘 모르겠다.. 간단하게 이해한 내용으로 아래 예시를 작성해본다.
 
+*   목표: 주어진 숫자배열에서 짝수만 얻기
 
+    \
+    여기서 난 그냥 짝수만 얻으면 된다. 그런데 아래 코드를 작성하기 위해서 다음과 같은 생각의 단계를 거쳤다.\
+    \- 주어진 숫자배열을 어떤 기준으로 반복할까\
+    \- 반복은 어느정도까지 해야할까\
+    \- 반복문에서 사용되는 현재 숫자는?\
+    \- 짝수면 어디다 담지?\
+    난 짝수만 알면되는데 다른 고민사항이 더 많다.
 
+```
+const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = [];
+
+for (let i = 0; i < numbers.length; i++) {
+  const currentNumber = numbers[i];
+  
+  if (currentNumber % 2 === 0) {
+    evenNumbers.push(currentNumber)
+  }
+}
+
+console.log(evenNumbers);
+```
+
+&#x20;선언적으로 작성하게 되면?
+
+`(number % 2) === 0` 짝수만 얻기! \
+목표였던 `주어진 배열에서 짝수만얻기` 딱 요 부분만 코드로 작성하면된다. 나머진 걍 선언적 api 를 사용함
+
+```
+const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = numbers.filter(number => (number % 2) === 0);
+console.log(evenNumbers);
+```
+
+아직 이해한 수준은 딱 이정도 수준이다.
