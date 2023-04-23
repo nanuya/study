@@ -13,7 +13,7 @@
 
 효율적인 렌더링에 대해 언급하기 전 어떻게 돔이 렌더링되는지 먼저 알아야 그 효율에 대해 이해할 수 있다.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://d2.naver.com/helloworld/59361">https://d2.naver.com/helloworld/59361</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://d2.naver.com/helloworld/59361">https://d2.naver.com/helloworld/59361</a></p></figcaption></figure>
 
 돔이 렌더링 되는 과정은&#x20;
 
@@ -36,7 +36,7 @@ case 2) 변경사항을 모아 문자열(나름의 가상돔)로 만든 후 DOM 
 
 굉장히 단순하게 비교했을 때 아래와 같이 시간차가 발생했다.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 
 
@@ -46,5 +46,5 @@ case 2) 변경사항을 모아 문자열(나름의 가상돔)로 만든 후 DOM 
 
 🚀 유지보수의 용이성
 
-* 리액트에서는 JSX 와 VDOM 을 활용하여 보다 유지보수하기 쉬운 개발환경을 제공한다. 이 부분에 대하서는 JSX 에서 언급한 유지보수관점과 동일하기 때문에 자세한 내용은 링크로 대신하겠다.
+* 리액트에서는 JSX 와 VDOM 을 활용하여 보다 유지보수하기 쉬운 개발환경을 제공한다. 이 부분에 대하서는 JSX 에서 언급한 유지보수관점과 동일하기 때문에 자세한 내용은 [링크](jsx.md)로 대신하겠다.
 
