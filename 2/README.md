@@ -11,18 +11,10 @@ description: 2주차 내용에서는 `React` 의 핵심개념 JSX 와 VDOM 에 �
 * React.createElement
 * React Element
 * React StrictMode
-
-\-----------------4/18 화요일에 정리하기
-
 * VDOM(Virtual DOM)이란?
   * DOM 이란?
   * DOM 과 Virtual DOM 차이
-
-\-----------------4/19 수요일에 정리하기
-
 * Reconciliation 과정은 무엇인가?
-
-\-----------------4/20 목요일에 정리해서 제출하기
 
 
 
