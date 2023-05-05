@@ -36,7 +36,7 @@ case 2) 변경사항을 모아 문자열(나름의 가상돔)로 만든 후 DOM 
 
 굉장히 단순하게 비교했을 때 아래와 같이 시간차가 발생했다.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 
 
