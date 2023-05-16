@@ -19,3 +19,5 @@
   * [React Testing Library](5/react-testing-library.md)
   * [MSW](5/msw.md)
   * [Playwright](5/playwright.md)
+* [🏁 6주차](6/README.md)
+  * [External Store](6/external-store.md)
